@@ -14,12 +14,12 @@
 		<version>1.2-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
-	
+
 	<properties>
 		<!-- Depending OpenCms Version >= 7.5.0 and < 8.0.0 and patched versions. -->
 		<!-- [7.5.0,8.0.0) doesn't work for four digits version -->
-		<opencms.dependingversion>8.0.3.1</opencms.dependingversion>
-	</properties>	
+		<opencms.dependingversion>9.5.2</opencms.dependingversion>
+	</properties>
 
 	<build>
 		<defaultGoal>assembly:assembly</defaultGoal>
@@ -63,14 +63,14 @@
 						The fucking Winzip changes the lineEnding if you unpack the resulting *.tar.gz 
 						File. Better to use 7-zip.... -->
 					<version>2.2-beta-5</version>
-									<dependencies>
-					<dependency>
-						<groupId>at.infonova.opencms</groupId>
-						<artifactId>opencms-module-assembly</artifactId>
-						<version>1.0-B3</version>
-					</dependency>
-				</dependencies>
-					
+					<dependencies>
+						<dependency>
+							<groupId>at.infonova.opencms</groupId>
+							<artifactId>opencms-module-assembly</artifactId>
+							<version>1.0-B3</version>
+						</dependency>
+					</dependencies>
+
 					<executions>
 						<execution>
 							<id>assemble</id>
@@ -116,7 +116,7 @@
 			<version>${opencms.dependingversion}</version>
 			<scope>provided</scope>
 		</dependency>
-		
+
 	</dependencies>
 
 	<pluginRepositories>
@@ -132,5 +132,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-	
+
 </project>
