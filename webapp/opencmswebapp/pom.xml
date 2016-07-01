@@ -29,7 +29,7 @@
                             </goals>
                             <configuration>
                                 <type>zip</type>
-                                <classifier>opencms-module</classifier>
+                                <includeClassifiers>opencms-module</includeClassifiers>
                                 <outputDirectory>
                                     ${project.build.directory}/${project.build.finalName}/WEB-INF/packages/modules
                                 </outputDirectory>
@@ -46,7 +46,7 @@
                             </goals>
                             <configuration>
                                 <type>zip</type>
-                                <classifier>opencms-module</classifier>
+                                <includeClassifiers>opencms-module</includeClassifiers>
                                 <outputDirectory>
                                     ${project.build.directory}/m2e-wtp/web-resources/WEB-INF/packages/modules
                                 </outputDirectory>
