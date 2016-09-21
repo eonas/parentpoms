@@ -18,7 +18,7 @@
 	<properties>
 		<!-- Depending OpenCms Version >= 7.5.0 and < 8.0.0 and patched versions. -->
 		<!-- [7.5.0,8.0.0) doesn't work for four digits version -->
-		<opencms.dependingversion>10.4.2</opencms.dependingversion>
+		<opencms.dependingversion>10.4.7</opencms.dependingversion>
 	</properties>
 
 	<build>
