@@ -3,13 +3,13 @@
     <groupId>de.eonas.portal.parentpoms</groupId>
     <artifactId>opencmswebapp</artifactId>
     <packaging>pom</packaging>
-    <version>1.2.1</version>
+    <version>1.3-SNAPSHOT</version>
     <name>Pom for a opencms webapp on RHEL6</name>
 
     <parent>
         <groupId>de.eonas.portal.parentpoms</groupId>
         <artifactId>webapp</artifactId>
-        <version>1.2.1</version>
+        <version>1.3-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
