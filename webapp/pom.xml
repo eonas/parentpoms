@@ -3,13 +3,13 @@
     <groupId>de.eonas.portal.parentpoms</groupId>
     <artifactId>webapp</artifactId>
     <packaging>pom</packaging>
-    <version>1.2</version>
+    <version>1.2.1-SNAPSHOT</version>
     <name>Pom for a webapp on RHEL6</name>
 
     <parent>
         <groupId>de.eonas.portal.parentpoms</groupId>
         <artifactId>root</artifactId>
-        <version>1.2</version>
+        <version>1.2.1-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
